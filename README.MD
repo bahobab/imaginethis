@@ -38,11 +38,16 @@ From the terminal
 
 2. cd to the directory
 
-3. run npm install (or yarn install) to install the dependencies.
+3. create a .env file on the project root folder with the following content:
 
-4. run npm run dev (or yarn dev)
+API_KEY="YOUR_HUBSPO_API_KEY"
+PORT="3000"
 
-5. use the project by opening the home page in your browser: http://localhost:3000
+4. run npm install (or yarn install) to install the dependencies.
+
+5. run npm run dev (or yarn dev)
+
+6. use the project by opening the home page in your browser: http://localhost:3000
 
 NOTE: an implementation solution is provided in the /middlewares/implement.index.js file.
 So to see a working version with this solution:

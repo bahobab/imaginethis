@@ -40,8 +40,7 @@ From the terminal
 
 3. create a .env file on the project root folder with the following content:
 
-API_KEY="YOUR_HUBSPO_API_KEY"
-PORT="3000"
+  API_KEY="YOUR_HUBSPOT_API_KEY"
 
 4. run npm install (or yarn install) to install the dependencies.
 

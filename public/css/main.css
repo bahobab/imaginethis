@@ -1,0 +1,106 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  margin: 50px auto;
+  font-family: sans-serif;
+  color: #3c3c3c;
+}
+
+.container {
+  padding: 20px;
+  /* // width: 100vw; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading,
+.sub-heading {
+  text-align: center;
+}
+
+.create-contact {
+  width: 200px;
+  height: 50px;
+  margin: 20px auto;
+  /* align-self: center; */
+  border: none;
+  background-color: #555;
+  border-radius: 3px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+  outline-style: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: all 0.2s;
+}
+
+.create-contact:hover {
+  box-shadow: 5px 5px #eee;
+}
+
+.user-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.created-user {
+  width: 100%;
+  margin-top: 30px;
+  padding: 15px;
+  background-color: #eee;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-group {
+  width: 300px;
+  align-self: center;
+  margin: 20px auto;
+}
+
+.input-element {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px auto;
+  height: 30px;
+  border: none;
+  border-bottom: 1px solid #ccc;
+}
+
+input[type=text] {
+  padding-left: 5px;
+  border: none;
+  font-size: 14px;
+  padding-bottom: 10px;
+}
+
+.warning {
+  color: orange;
+  font-weight: bold;
+}
+
+.success {
+  color: green
+}
+
+.danger {
+  color: red;
+}
+
+.info {
+  color: blue;
+}

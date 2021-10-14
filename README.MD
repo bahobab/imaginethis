@@ -45,6 +45,10 @@ From the terminal
 5. use the project by opening the home page in your browser: http://localhost:3000
 
 NOTE: an implementation solution is provided in the /middlewares/implement.index.js file.
+So to see a working version with this solution:
+1. rename /middlewares/index.js to different name.
+
+2. rename /middlewares/implement.index.js to /middlewares/index.js.
 
 ## App Screenshots
 

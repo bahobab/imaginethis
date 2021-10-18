@@ -23,7 +23,7 @@ The result of the request is sent back to the user.
 /middlewares/index.js
 
 As requested in the exercise the function is not complete but contains instructions and comments for its implementation.
-(A example implementation is provided in the file /middleware/index.js.implement)
+(An example implementation is provided in the file /middlewares/index.js.implement)
 
 ### Complete the Middleware Function
 

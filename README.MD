@@ -28,7 +28,7 @@ As requested in the exercise the function is not complete but contains instructi
 ### Complete the Middleware Function
 
 1. add the hubspot api key in to the file .env
-2. complete the instructions in the /middleware/index.js file
+2. complete the instructions in the /middlewares/index.js file
 
 ## How To Run the Project
 
